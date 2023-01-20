@@ -4,6 +4,10 @@
     --darkgrey: #2C3E50;
 }
 
+html {
+    height: 100vh;
+}
+
 .header {
     background-color: var(--gray);
 }
