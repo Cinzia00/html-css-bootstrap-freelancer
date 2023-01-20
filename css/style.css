@@ -1,0 +1,65 @@
+:root {
+    --gray: #3A546D;
+    ---green: #1ABC9C;
+    --darkgrey: #2C3E50;
+}
+
+.header {
+    background-color: var(--gray);
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.bg-green {
+    background-color: var(---green);
+}
+
+.footer-container {
+    background-color: var(--gray);
+}
+
+.copyright {
+    background-color: var(--darkgrey);
+}
+
+.font-white{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/******  DEBUG  ***** */
+
+.bg-green {
+    padding: 80px;
+}
+
+.col,
+.col-3 {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.col-radius {
+    border: 1px solid salmon;
+    border-radius: 15px;
+    padding: 50px 40px;
+}
+
+.copyright {
+    padding: 40px;
+}
+
+/* ******************** */
+
+
+
+
+/* 
+@media screen and (min-width: 992px) {
+
+} */
