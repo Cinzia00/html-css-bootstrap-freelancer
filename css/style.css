@@ -4,6 +4,23 @@
     --darkgrey: #2C3E50;
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input {
+    border-style: inset;
+    border-width: 0;
+}
+
 html {
     height: 100vh;
 }
@@ -13,7 +30,7 @@ html {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 50px ;
 }
 
 .bg-green {
@@ -33,13 +50,116 @@ section {
     text-align: center;
 }
 
+.avatar {
+    width: 150px;
+}
+
+.ci_card {
+    margin: 0 auto;
+}
+
+.star_icon {
+    width: 45px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    padding: 10px 45px;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    border-bottom: 2px solid currentColor;
+    width: 100px;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid currentColor;
+    width: 100px;
+}
+
+.list {
+    text-transform: uppercase;
+    display: flex;
+    padding: 0 15px;
+}
+
+.icon_portfolio {
+    border-radius: 10px;
+}
+
+.paragrafo-about {
+    display: flex;
+}
+
+.multicolonna {
+    width: 1030px;
+    margin: 20px auto;
+    -webkit-column-count: 2;
+    -webkit-column-gap:25px;
+    -moz-column-count: 2;
+    -moz-column-gap:25px;
+    column-count: 2;
+    column-gap: 25px;
+}
+
+.button {
+    padding: 6px 10px;
+    font-size: 12px;
+    color: white;
+    background-color: var(---green);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact {
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 0;
+    width: 75%;
+}
+
+.contact_section {
+    margin-bottom: 20px;
+}
+
+.contact_section li:last-child {
+    margin-top: 100px;
+    border-top: 1px solid lightgrey;
+    width: 75%;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.font_weight {
+    font-weight: 500;
+}
+
+.social {
+    display: inline-block;
+    width: 30px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    padding: 10px;
+    object-position: center;
+}
+
+.text_color {
+    color: var(---green);
+}
 
 
 
 /******  DEBUG  ***** */
-
+/* 
 .bg-green {
-    padding: 80px;
+    padding: 40px;
 }
 
 .col,
@@ -52,7 +172,7 @@ section {
     border: 1px solid salmon;
     border-radius: 15px;
     padding: 50px 40px;
-}
+} */
 
 .copyright {
     padding: 40px;
