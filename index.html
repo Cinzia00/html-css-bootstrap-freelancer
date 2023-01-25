@@ -11,34 +11,45 @@
 </head>
 <body>
     <header class="header font-white">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                </div>
-                <div class="col">
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container text-white">
+              <a class="navbar-brand text-uppercase" href="#">Start Boostrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">Aboout</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
     <main>
-        <section class="bg-green text-white py-4">
-            <div class="container-fluid text-center">
+        <section class="bg-green text-white text-center py-5">
+            <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <div class="ci_card">
-                            <figure class="avatar">
-                                <img src="./img/avatar.svg" alt="">
-                            </figure>
-                            <h2>START BOOTSTRAP</h2>
-                            <div class="star">
-                                <i class="star_icon fa-solid fa-star"></i>
-                            </div>
-                            <ul class="list">
-                                <li>graphic artist</li>
-                                <li>web designer</li>
-                                <li>illustrator</li>
-                            </ul>
+                    <div class="col">
+                        <figure class="avatar">
+                            <img src="./img/avatar.svg" alt="">
+                        </figure>
+                        <h2>START BOOTSTRAP</h2>
+                        <div class="star d-flex justify-content-center">
+                            <i class="star_icon fa-solid fa-star"></i>
                         </div>
+                        <ul class="list justify-content-center">
+                            <li class="list-item">graphic artist</li>
+                            <li class="list-item">web designer</li>
+                            <li class="list-item">illustrator</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -48,7 +59,7 @@
                 <div class="row justify-content-center">
                     <div class="col-auto text-center">
                         <h2>PORTFOLIO</h2>
-                        <div class="star">
+                        <div class="star d-flex justify-content-center">
                             <i class="star_icon fa-solid fa-star"></i>
                         </div>
                     </div>
@@ -82,18 +93,19 @@
                 <div class="row justify-content-center">
                     <div class="col-auto">
                         <h2>ABOUT</h2>
-                        <div class="star">
+                        <div class="star d-flex">
                             <i class="star_icon fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="multicolonna">
-                            Freelancer is a free bootstrap theme created by Start Bootstrap. the dowload includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-                            whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share youre projects, this template is the perfect starting point!
+                    <div class="row justify-content-center">
+                        <div class="col-9">
+                            <p class="multicolonna">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. the dowload includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share youre projects, this template is the perfect starting point!
+                            </p>
                         </div>
                     </div>
                 </div>
-                <button class="button"><i class="fa-solid fa-download"></i> Download</button>
+                <button class="button btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
             </div>  
             <div class="row row-cols-1 row-cols-md-2 justify-content-center">
                 <div class="col"></div>
@@ -105,7 +117,7 @@
                 <div class="row text-center justify-content-center">
                     <div class="col-auto">
                         <h2>CONTACT ME</h2>
-                        <div class="star">
+                        <div class="star d-flex">
                             <i class="star_icon fa-solid fa-star"></i>
                         </div>
                     </div>
@@ -142,7 +154,7 @@
                         <h4>LOCATION</h4>
                         <address class="font_weight">2215 Jhon Daniel Drive Clark, MO <br>54243</address>
                     </div>
-                    <div class="col">
+                    <div class="col colon_center_footer">
                         <h4>AROUND THE WEB</h4>
                         <div class="social_icon">
                             <span class="social">
@@ -161,17 +173,19 @@
                     </div>
                     <div class="col">
                         <h4>ABOUT FREELANCER</h4>
-                        <p>Freelance is a free to use, open source <br>Bootstrap theme created by <a class="text_color" href="#">Star <br>Bootstrap</a>. </p>
+                        <p class="font_weight">Freelance is a free to use, open source <br>Bootstrap theme created by <a class="text_color" href="#">Star <br>Bootstrap</a>. </p>
                     </div>
                 </div>
             </div>
-        </section><a href=""></a>
+        </section>
         <section class="copyright font-white">
             <div class="container">
-                <p>Copyright</p>
+                <p class="font_weight">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
             </div>
         </section>
     </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
